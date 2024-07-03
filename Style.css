@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #000 !important;
+    background-color: #040B11 !important;
 }
 
 /* Navbar======================== */
@@ -475,14 +475,13 @@ body {
         .cards-container {
             gap: 15px;
         }
-        .cards{
-          
+        .cards{           
            background-color: rgb(25, 26, 38);
            border-radius: 12px;
            transition: all .3s ease-in;
         }
         .cards:hover{
-            border: 3px solid rgba(203, 242, 145, 0.854);
+            border: 3px solid turquoise;
             transform: scale(1);
         }
         .cards:hover ~ .cards{
@@ -508,4 +507,36 @@ body {
              color: white;
         }
 
- 
+ /* The Story================================*/
+ .the-story{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+ .story-container {
+  background-color: #bf392b;
+ }
+ .story-cards{
+  height: 220px;
+  background-color: rgb(25, 26, 38);;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+ }
+ .story-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .story-content h5 {
+  font: 10px;
+ }
+ .story-number{
+  background-color:rgba(64, 224, 208, 0.453);
+  border-radius: 5px;
+  font-size: 20px;
+  color:#edebeb;
+ }
