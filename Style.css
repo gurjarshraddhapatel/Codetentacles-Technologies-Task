@@ -465,3 +465,47 @@ body {
 .diffferent-heading{
   color: turquoise;
 }
+
+/* Hot Collection ====================*/
+
+        .normal h1{
+         font-size: 30px;
+         padding-left: 5px;
+        }
+        .cards-container {
+            gap: 15px;
+        }
+        .cards{
+          
+           background-color: rgb(25, 26, 38);
+           border-radius: 12px;
+           transition: all .3s ease-in;
+        }
+        .cards:hover{
+            border: 3px solid rgba(203, 242, 145, 0.854);
+            transform: scale(1);
+        }
+        .cards:hover ~ .cards{
+            transform: translateY(8px);
+        }
+        .cards:hover ~ .cards  ~.cards {
+            transform: translateY(8px);
+        }
+        .cards:hover ~ .cards ~.cards ~.cards{
+            transform: translateY(8px);
+        }
+        .cards:hover ~ .cards ~.cards ~.cards ~.cards{
+            transform: translateY(8px);
+        }
+        .cards img{
+          margin-top: 10px;
+        }
+        .cards h5{
+             padding-top: 22px;
+             font-weight: 600;
+             padding-left: 8px;
+             padding-bottom: 10px;
+             color: white;
+        }
+
+ 
