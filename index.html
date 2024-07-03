@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Designing</title>
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,6 +16,8 @@
     integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="Style.css">
+  <!-- Animation Link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,16 +36,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#Home">Home<i
+                class="fa-solid fa-angle-down px-2"></i></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link active" href="#About">About<i class="fa-solid fa-angle-down px-2"></i></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active" href="#">Roadmap</a>
+            <a class="nav-link active" href="#collection">Collection<i class="fa-solid fa-angle-down px-2"></i></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active" href="#">Collection</a>
+            <a class="nav-link active" href="#story">Story<i class="fa-solid fa-angle-down px-2"></i></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="#binabox">Binabox<i class="fa-solid fa-angle-down px-2"></i></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="#footer">Footer<i class="fa-solid fa-angle-down px-2"></i></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
@@ -69,58 +80,8 @@
   </nav>
   <!-- Navbar End -->
 
-  <!-- Carousel Start -->
-
-
-
-  <!-- <main id="main">
-    <section id="main-carousel">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col px-0">
-            <div class="carousel slide kb-carousel carousel-fade" id="carouselKenBurns" data-bs-ride="carousel">
-             
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="http://static1.squarespace.com/static/61e32436c5eb655d913f8cf7/t/62028bf7e8970b68d05342d6/1644334083246/New+Project+%288%29+%281%29.png?format=1500w" class="d-block w-100" alt="Slide 1">
-                  <div class="carousel-caption kb-caption d-flex justify-content-center align-items-center w-100 bg-info">
-                    <h1 data-animation="animated">Ken Burns</h1>
-                    <h3 data-animation="animated">A zoom effect with CSS3</h3>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="http://static1.squarespace.com/static/61e32436c5eb655d913f8cf7/t/62028bf7e8970b68d05342d6/1644334083246/New+Project+%288%29+%281%29.png?format=1500w" class="d-block w-100" alt="Slide 2">
-          
-                </div>
-                <div class="carousel-item">
-                  <img src="http://static1.squarespace.com/static/61e32436c5eb655d913f8cf7/t/62028bf7e8970b68d05342d6/1644334083246/New+Project+%288%29+%281%29.png?format=1500w" class="d-block w-100" alt="Slide 3">
-                  <div class="carousel-caption kb-caption kb-caption-center">
-                    <h1 data-animation="animated">Super Effect</h1>
-                    <h3 data-animation="animated">Demonstrate your benefits</h3>
-                  </div>
-                </div>
-              </div>
-
-           
-              <button class="carousel-control-prev kb-control-prev" type="button" data-bs-target="#carouselKenBurns" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next kb-control-next" type="button" data-bs-target="#carouselKenBurns" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-   
-  </main> -->
-
-  <!-- <section> -->
-  <div class="container-fluid Home">
+  <!-- Home Start -->
+  <div class="container-fluid w-100 Home" id="Home">
     <div class="container inner-container">
       <div class="home-content ">
 
@@ -136,20 +97,16 @@
       </div>
     </div>
   </div>
-
-  <!-- </section> -->
-  <!-- Carousel End -->
-
+  <!-- Home End -->
 
   <!-- About Start -->
-
-  <div class="container main-container w-100 p-lg-5 mt-4"
+  <div class="container main-container w-100 p-lg-5 mt-5" id="About"
     style=" background-image: radial-gradient(circle, #333, #040B11 13em);">
     <h1 class="text-center text-white text-uppercase">How To <b class="diffferent-heading">Netalien</b> Work</h1>
     <div class="inner-conntiner pt-4">
       <div class="row">
         <div class="col-lg-3 p-2  ">
-          <div class="netaaliean-smallcard">
+          <div class="netaaliean-smallcard" data-aos="fade-up" data-aos-duration="3000">
             <div class="small-card1">
               <div class="inner-small-card">
                 <img src="Image/card-removebg.png" class="img-fluid" width="60px" alt="">
@@ -160,7 +117,7 @@
           </div>
         </div>
         <div class="col-lg-3 p-2 ">
-          <div class="netaaliean-smallcard">
+          <div class="netaaliean-smallcard" data-aos="fade-up" data-aos-duration="3000">
             <div class="small-card2">
               <div class="inner-small-card">
                 <img src="Image/Notes-removebg-preview.png" class="img-fluid  img2" width="60px" alt="">
@@ -171,7 +128,7 @@
           </div>
         </div>
         <div class="col-lg-3 p-2 ">
-          <div class="netaaliean-smallcard">
+          <div class="netaaliean-smallcard" data-aos="fade-up" data-aos-duration="3000">
             <div class="small-card3">
               <div class="inner-small-card">
                 <img src="Image/piggy.png" class="img-fluid mt-3 img3" width="60px" alt="">
@@ -182,7 +139,7 @@
           </div>
         </div>
         <div class="col-lg-3 p-2 ">
-          <div class="netaaliean-smallcard">
+          <div class="netaaliean-smallcard" data-aos="fade-up" data-aos-duration="3000">
             <div class="small-card4">
               <div class="inner-small-card">
                 <img src="Image/grocery_14264157.png" class="img-fluid  mt-4 img4" alt="">
@@ -203,8 +160,7 @@
 
 
   <!-- Hot Collection Start -->
-
-  <div class="normal container mt-5">
+  <div class="normal container pt-lg-0  pt-4 mt-lg-5 pb-lg-5" id="collection">
     <h1 class=" text-start text-white text-uppercase pb-4">Hot <b class="diffferent-heading">Collection</b> </h1>
     <div class="row ">
       <div class="p-3 col-lg-3">
@@ -215,8 +171,7 @@
         </div>
       </div>
       <div class="p-3 col-lg-3">
-        <div class="cards p-3 ">
-
+        <div class="cards p-3 " style="border: 2px solid turquoise; box-shadow: 1px 1px 20px turquoise">
           <img src="Image/Aliens/HC-22.png" class="img-fluid" alt="">
           <h5>SKELATON #02</h5>
         </div>
@@ -278,20 +233,19 @@
 
 
   <!-- THE Story start -->
-
-  <div class="container mt-5 text-white">
+  <div class="container pt-4 pt-lg-0 mt-lg-5 text-white pb-lg-5" id="story">
     <div class="row ">
       <div class="col-lg-6 pt-lg-2 the-story">
         <div class="px-2">
-          <h1>The <b class="diffferent-heading">Story</b> </h1>
+          <h1 class="text-uppercase">The <b class="diffferent-heading">Story</b> </h1>
           <p class="text-start pt-3"> Our collection's priority is to reward NFT holders by developing utilities <br>
             they can use in their current everyday life. Not in a hypothetical future.</p>
           <div class="d-flex justify-content-between pt-4 w-50 ">
-            <span>
+            <span class="number">
               <h6>Total Item</h6>
               <h2>2240+</h2>
             </span>
-            <span>
+            <span class="number">
               <h6>Profiles Whitelisted</h6>
               <h2>1000+</h2>
             </span>
@@ -301,14 +255,13 @@
       </div>
       <div class="col-lg-6 p-3">
         <div class="row">
-          <div class="col-lg-6 pb-2 ">
-            <div class="story-cards">
+          <div class="col-lg-6 pb-2 " data-aos="flip-down">
+            <div class="story-cards" style="border: 2px solid turquoise; box-shadow: 1px 1px 20px turquoise;">
               <div class="story-content">
                 <h1 class="story-number p-2 ">O1</h1>
                 <h5>Daily Tokens</h5>
                 <p class="text-center px-5">Earn interstellar tokens passively by staking your collectible NFT.</p>
               </div>
-
             </div>
           </div>
           <div class="col-lg-6 pb-2">
@@ -318,7 +271,6 @@
                 <h5>Exclusive Discounts</h5>
                 <p class="text-center px-5">Tokens and NFTs can be used for discounts at top fashion brands.</p>
               </div>
-
             </div>
           </div>
           <div class="col-lg-6 pt-2">
@@ -328,7 +280,6 @@
                 <h5>Galactic Merch</h5>
                 <p class="text-center px-5">Members-only merch designed by David and other world-renowned artists.</p>
               </div>
-
             </div>
           </div>
           <div class="col-lg-6 pt-2">
@@ -339,19 +290,17 @@
                 <p class="text-center px-5">Get limited-edition items from Alienverse collabs with fashion and luxury
                   brands.</p>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <!-- THE Story end -->
 
 
   <!-- BINABOX PARTNER -->
-  <div class="container">
+  <div class="container text-uppercase mt-lg-5 pb-5 pb-lg-5" id="binabox">
     <h1 class="text-white text-center"> <b class="diffferent-heading ">Binabox</b> Partner </h1>
 
     <div class="row pt-lg-5 ">
@@ -389,7 +338,7 @@
 
     <div class="row pt-lg-5 pt-3">
       <div class="col-lg-2">
-        <div class="bg-dark" >
+        <div class="bg-dark">
           <img src="Image/Logos/7.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -404,7 +353,7 @@
         </div>
       </div>
       <div class="col-lg-2">
-        <div > 
+        <div>
           <img src="Image/Logos/10.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -422,7 +371,7 @@
 
     <div class="row pt-lg-5 pt-3">
       <div class="col-lg-2">
-        <div class="" >
+        <div class="">
           <img src="Image/Logos/13.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -437,7 +386,7 @@
         </div>
       </div>
       <div class="col-lg-2">
-        <div class="bg-dark"> 
+        <div class="bg-dark">
           <img src="Image/Logos/16.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -453,6 +402,66 @@
       </div>
     </div>
   </div>
+  <!-- BINABOX PARTNER End -->
+
+
+
+  <!-- Footer Start -->
+  <footer id="footer">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div class="useful-link">
+            <h2>Useful Links</h2>
+            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+            <div class="use-links">
+              <li><a href="#"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+              <li><a href="#"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+              <li><a href="#"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+              <li><a href="#"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="social-links">
+            <h2 class="pt-lg-0 pt-4">Follow Us</h2>
+            <img src="./assets/images/about/home_line.png" alt="">
+            <div class="social-icons">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-3">
+          <div class="address">
+            <h2 class="pt-lg-0 pt-4">Address</h2>
+            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+            <div class="address-links text-white">
+              <li class="address1"><i class="fa-solid fa-location-dot "></i>Indore, Madhya Pradesh </li>
+              <li><a href="mailto:gurjarshraddha100@gmail.com" class="text-white"><i class="fa-solid fa-envelope"></i>
+                  gurjarshraddha100@gmail.com</a></li>
+              <li><a href="tel:+919685454877" class="text-white"><i class="fa-solid fa-phone"></i> +91 9685454877</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+      lorem ispum lorem ispum 2022 Powerd By <a href="#">lorem ispum</a>
+    </div>
+  </section>
+  <!-- Footer End -->
 
 
 
@@ -461,82 +470,6 @@
 
 
 
-
-
-
-
-
-
-
-  <div class="mt-5">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quae qui consectetur, perferendis molestias earum
-    aut ullam recusandae facere pariatur dolorum veritatis laboriosam magnam aspernatur voluptatem. Aspernatur eum nisi
-    at earum debitis quam, accusantium perferendis ratione blanditiis iure, perspiciatis quis. Laboriosam vitae
-    consequatur, fugiat eius quas doloremque officiis voluptatum amet impedit recusandae consectetur voluptas similique
-    veritatis deserunt veniam voluptate odio sequi blanditiis nam aperiam. Dolore quisquam officia, nihil sapiente
-    repellendus ratione impedit maiores facilis similique eligendi ipsum facere asperiores, reiciendis natus soluta aut
-    tenetur perferendis nostrum ex dolor et cupiditate. Similique officia magnam aliquid ipsum, dolorum corrupti
-    deserunt molestias repudiandae ad sunt dolore, iusto facere! Veritatis molestias nihil sed! Aspernatur dolorum quod
-    sed quidem quibusdam, atque et facere cum, suscipit hic itaque esse voluptas omnis recusandae impedit unde
-    laudantium, rerum excepturi. Molestiae dicta ipsa harum maiores sint illum tempora et voluptatum ipsum unde, in
-    eveniet nam adipisci dolorem ea quas? Commodi totam hic eligendi sed ad cupiditate tempore illo! Sint voluptates,
-    ipsa nesciunt voluptatem aperiam architecto debitis sequi praesentium, iure omnis recusandae. Natus consequatur quis
-    sit voluptates minima, recusandae fuga obcaecati quod optio praesentium fugit ipsam at, maiores sequi ex aliquid.
-    Natus molestias cumque explicabo nobis aperiam voluptas non nulla culpa temporibus, itaque ratione nam deleniti
-    incidunt, accusamus sapiente distinctio voluptatum numquam, ex similique repellendus eos obcaecati at
-    exercitationem. Ullam adipisci est numquam recusandae provident harum hic totam non soluta velit dolore iusto odit,
-    excepturi consequuntur omnis labore voluptatem id perferendis aperiam dolorem? Reprehenderit fuga nesciunt
-    aspernatur delectus assumenda similique excepturi qui est possimus! Laudantium sit magnam cum odit deleniti optio
-    magni assumenda delectus aperiam sed. Dignissimos voluptate minima, ratione illum, eveniet deleniti aliquam pariatur
-    in atque vel tempore neque laborum cupiditate. Fuga quia cum reiciendis, a earum quod nostrum, suscipit iusto, vitae
-    esse reprehenderit accusamus omnis. Possimus, quia accusamus commodi porro amet tempore, sint, mollitia iure dolor
-    fuga aut vero officiis eos deserunt perspiciatis velit id molestiae eius asperiores corporis in quam odio modi?
-    Quasi, magnam assumenda voluptatem quod sit ex explicabo harum! Laudantium sed reprehenderit maxime consectetur?
-    Error reprehenderit quis vel commodi, dicta iste et blanditiis voluptatibus maiores labore neque, animi corporis,
-    illo corrupti non reiciendis voluptatem rem assumenda sapiente! Sequi reiciendis dolor, vitae quidem voluptas
-    necessitatibus, natus corporis asperiores quaerat aut odit rem quisquam quo quae, iste consequatur! Quasi quis magni
-    dignissimos blanditiis labore nihil amet architecto nisi illum harum autem placeat id illo odio, ex delectus eum
-    voluptatem fuga magnam, necessitatibus iste! Harum laborum tenetur aspernatur eveniet nostrum. Consequatur, est
-    totam, ex eos natus laudantium dolores, dolore labore doloremque voluptatum velit fugit tempora explicabo itaque
-    esse reiciendis nesciunt suscipit assumenda. Reprehenderit totam atque explicabo dolorem ullam reiciendis expedita
-    officiis dolorum doloribus optio ipsam repellendus quasi, repudiandae natus et nesciunt similique quae! Nulla porro
-    modi minus est! Unde ducimus aut tenetur odit maxime rerum animi doloremque minima, eveniet culpa molestias laborum
-    dolorum facilis magnam labore sint repellendus maiores modi voluptate ea velit. Pariatur harum dolor debitis odio
-    corrupti nemo magni iusto, consectetur ad adipisci qui totam tempora aperiam optio praesentium nihil sed tempore,
-    voluptatibus ratione explicabo. Distinctio sapiente corrupti dolore quisquam repudiandae rem labore nisi, officia
-    voluptatum debitis quo aperiam nam praesentium eos accusantium molestias consequatur obcaecati quaerat possimus
-    consectetur repellendus blanditiis porro illo nostrum. Sequi veritatis beatae, magnam voluptatibus qui quos veniam
-    fuga minus, ducimus non nam consequatur quia sit id velit sed tenetur mollitia. Reprehenderit nobis culpa vel?
-    Commodi quod nihil modi dicta blanditiis amet itaque distinctio aut, excepturi quam deserunt harum repellendus
-    obcaecati provident ut autem, aliquid nobis consequuntur? Enim doloremque suscipit laborum omnis aliquam
-    perspiciatis placeat explicabo a? Facilis nostrum vel iusto sed reprehenderit corporis consequuntur id sint ab,
-    debitis eveniet inventore perspiciatis distinctio fuga quo ut deserunt autem enim. Quisquam quibusdam esse facilis
-    qui voluptatibus repellendus optio maiores, voluptatum quo fugiat cumque veritatis molestias, quod ex perferendis
-    temporibus, mollitia sint quam distinctio deserunt fugit ipsa. Totam corrupti, libero tempora quos voluptates harum
-    blanditiis ea repellendus, modi quod aliquam magni velit. Cum quis non deserunt saepe ipsa. Totam quia aliquid iusto
-    delectus soluta ex sit error ullam reiciendis aliquam commodi porro, corporis vitae optio animi? Optio ea autem
-    architecto magnam aspernatur quidem impedit veritatis, est, doloremque, officia voluptates dolores illo atque
-    ratione debitis? Nisi ducimus rem illum iste voluptates. Fuga, dolore dignissimos vel aperiam, provident accusamus
-    asperiores nihil modi repellat repudiandae expedita excepturi minima aut facere libero! Blanditiis excepturi veniam
-    quos maxime ea, pariatur ipsam incidunt eligendi et amet est quod nisi quaerat dolorum eos eum quia? Itaque, omnis.
-    Dolorum ut maiores, nihil ad minus eos vel debitis excepturi quasi aspernatur, quod ratione blanditiis magnam
-    incidunt accusantium asperiores eum eaque vero a ex corrupti inventore? Sunt fugiat modi distinctio nihil deserunt
-    non ipsa doloribus molestias impedit ea, ut nostrum? Nobis, dolore possimus! Odit harum obcaecati vel earum veniam
-    sunt architecto accusantium iste voluptatibus quaerat ducimus eius ipsa repellat cum fugiat neque quod corrupti sed,
-    voluptatem nihil. Magnam quas rem a, at itaque ea impedit odit laudantium earum inventore. Quaerat, optio
-    reprehenderit consequatur vero nemo ea. Eius tenetur libero non vel eos porro architecto quibusdam culpa. Nobis
-    adipisci nostrum corrupti autem vel, earum expedita natus est quae iure commodi velit beatae hic soluta numquam
-    doloribus! Accusantium neque enim quia. Accusamus quos molestias dolores natus aliquam laboriosam fuga asperiores
-    neque, vero unde fugit deleniti iste, nesciunt ullam voluptas nostrum error enim vel quia sequi placeat nisi tempore
-    maxime? Placeat perferendis quisquam quaerat. Recusandae vel dolores natus consectetur rem voluptates ullam atque,
-    animi, placeat exercitationem ipsam culpa provident aperiam temporibus accusamus minus ut sapiente impedit
-    voluptatibus corrupti! Tempora voluptate, vitae quis tempore facilis in sint mollitia temporibus magnam sequi nobis
-    doloribus, dolor, odit possimus id maiores recusandae vero quae corrupti. Eveniet commodi hic vel eaque. Dolores a
-    error iure ipsam. Cupiditate soluta mollitia enim id nam repellendus minima iusto aperiam dolores. Repudiandae sit
-    voluptas aliquam delectus, nemo doloremque ab cupiditate! Illo commodi facere libero dolore delectus deleniti magnam
-    minus officia sed. Culpa enim autem eum, dolore doloribus quis deserunt quas dolorem velit corrupti ea repudiandae
-    recusandae!
-  </div>
 
 
 
@@ -546,6 +479,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
